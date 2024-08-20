@@ -11,6 +11,15 @@ Through the model, decision-makers are provided with choices of adjustable techn
 
 The model is developed based on a modified version of Non-dominated Sortng Genetic Algorith-II (NSGA-II) using [Pymoo](https://pymoo.org/index.html).
 
+### Installation
+The repository is compatible with python 3.8. Follow these steps to install the requirements:
+
+- Clone the repository.
+- Create a python or conda virtual environment with python 3.8.
+- run `pip install -r ./requirements.txt` to install requirements.
+
+### Usage
+
 **Calculating propeties for a given policy map**
 
 The model can accomodate any land use, train the optimized policy map, and calculate relevant properties. But our aim here is to show how the default land use (i.e., case study of this research) can be loaded and the pproperties can be calculated.
